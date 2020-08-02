@@ -2,12 +2,18 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media screen and (min-width: 366px) and (max-width: 600px){
+    #container{height: 690px;}
     .apcs-modal{left: -3%;}
+    
+    .rectangle{width: 200px; height: 200px; margin-top: 36%;}
     
     .search-box input{margin: 2.5% auto; width: 75%;}
     
     .slide-wrap{height: 70%;}
     .slide{background-size: auto 100%;}
+    
+    .slide-wrap h2{top: 47%; font-size: 1.4rem;}
+    
     .gnb{display: none;}
     .menu-pop{display: none;}
     .gnb-mo{display: block;}
@@ -17,12 +23,13 @@
     .title{height: 30%; position: absolute; font-size: 1.6rem; letter-spacing: 0; margin-top: 11%;}
     .lost-mo{display: block;}
     
-    .page{height: auto; height: 173%;}
-    .info-wrap{height: 49%;}
+    .page{height: auto; height: auto;}
+    .info-wrap{height: 580px;}
     .info-box{width: 100%; margin: 0 0 10px 0; height: 180px;}
     h4.info-title{margin-top: 11%;}
     
-    .notice-wrap{height: 51%;}
+    /*.notice-wrap{height: 51%;}*/
+    .notice-wrap{height: 570px;}
     .notice{width: 100%;}
     .notice-left{height: 49%; margin-bottom: 10px;}
     .notice-right{height: 48.5%;}
