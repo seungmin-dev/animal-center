@@ -20,13 +20,13 @@
     .lost-box{margin: 10% 0;}
     .lost-wrap{display: none;}
     .lost-box{position: relative; height: 27%; width: 96%; margin: 5% auto 2%}
-    .title{height: 30%; position: absolute; font-size: 1.6rem; letter-spacing: 0; margin-top: 11%;}
+    .title{height: 30%; position: absolute; font-size: 1.6rem; letter-spacing: 0; margin-top: 7%;}
     .lost-mo{display: block;}
     
     .page{height: auto; height: auto;}
     .info-wrap{height: 580px;}
     .info-box{width: 100%; margin: 0 0 10px 0; height: 180px;}
-    h4.info-title{margin-top: 11%;}
+    h4.info-title{margin-top: 11%; font-size: 1.3rem;}
     
     /*.notice-wrap{height: 51%;}*/
     .notice-wrap{height: 570px;}
@@ -39,15 +39,16 @@
     .notice .list li span{font-size: 15px; line-height: 32px;}
     .notice-right .list p{font-size: 15px; line-height: 32px;}
     
-    .sitelink{height: 120px;}
-    .sitelink ul{width: 100%; height: 50px; padding-top: 12px; float: left; }
+    .sitelink{height: 110px;}
+    .sitelink ul{width: 100%; height: 50px; padding-top: 8px; float: left; }
     .sitelink ul li a{font-size: 12px; line-height: 26px; }
-    .familybox{width: 100%; height: 38px; margin-top: 10px;}
+    .familybox{width: 100%; height: 38px; margin-top: 5px;}
     .familysite ul{height: 100%; padding: 0;}
     .familybox span{line-height: 40px;}
     .familysite ul li a{line-height: 40px;}
-    .footer{height: 130px;}
-    .footer-inner p{font-size: 0.9rem;}
+    .footer{height: 110px;}
+    .footer-inner p{font-size: 12px;}
+    .footer-inner p:first-child{padding-top: 7px;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -58,27 +59,43 @@
     /*.gnb-inner>ul>li>a{font-size: 13px;}
     .gnb-menu a{font-size: 11px;}*/
     .apcs-modal{left: 25%;}
+    
+    .rectangle{width: 250px; height: 250px; margin-top: 20%;}
+    .slide-wrap h2{top: 53%; font-size: 1.6rem;}
+    
     .gnb{display: none;}
     .menu-pop{display: none;}
-    .gnb-mo .logo-mo img{width: auto; height: 74%; margin: 3% auto;}
+    .gnb-mo .logo-mo img{width: auto; height: 55%; margin: 4.5% auto;}
     .gnb-mo{display: block;}
     
     .menupage-mo{width: 50%;}
     
     .search-box input{width: 50%; margin: 1% auto;}
     
-    .slide-wrap{height: 52%;}
-    .lost-box{height: 22%; margin: 40px 0 150px 0;}
+    .slide-wrap{height: 50%;}
+    .lost-box{height: 330px}
+    .title{padding: 10px 0;}
+    .lost-wrap{height: 200px;}
     .info-wrap{height: 18%;}
     .lost-btn-box{width: 67%; top: 25%; left: 16.5%;}
     .lost-btn{width: 55px; height: 55px; line-height: 55px;}
-    .page{height: 47%;}
-    .info-wrap{height: 30%;}
-    .notice-wrap{height: 68%;}
+    .page{height: 420px; padding: 2% 0;}
+    .info-wrap{height: 35%;}
+    h4.info-title{font-size: 1.3rem; margin-top: 16%; left: 0; line-height: 3rem;}
+    h6.info-title{font-size: 0.9rem;}
+    
+    .notice-wrap{height: 60%;}
     .notice-left{margin-right: 2%; width: 60%;}
     .notice-right{width: 38%;}
+    .notice .list{margin: 20px 30px;}
+    .notice h2{margin: 20px 30px 10px; font-size: 1.3rem;}
     
-    .notice .list li a{display: block; width: 70%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; float: left;}
+    .notice .list li{height: 30px;}
+    .notice .list li a{display: block; width: 70%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; float: left; font-size: 0.9rem; line-height: 30px;}
+    .notice .list li span{font-size: 0.95rem; line-height: 30px;}
+    .notice-right .list p{font-size: 0.9rem; line-height: 30px;}
+    
+    .sitelink ul li a{font-size: 14px;}
 }
     
 /* Large devices (laptops/desktops, 992px and up) */
